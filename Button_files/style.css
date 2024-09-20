@@ -1,0 +1,90 @@
+.Touch {
+  cursor: pointer;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: limegreen;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.Touch:hover {
+  background-color: lime;
+  color: antiquewhite;
+}
+
+.Touch:active {
+  box-shadow: inset -2px -2px 3px rgba(230, 57, 57, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.Touch1 {
+  cursor: pointer;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: blueviolet;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.Touch1:hover {
+  background-color: blue;
+  color: gold;
+}
+
+.Touch1:active {
+  box-shadow: inset -2px -2px 3px rgba(230, 57, 57, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.Touch2 {
+  cursor: pointer;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: orange;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.Touch2:hover {
+  background-color: red;
+  color: burlywood;
+}
+
+.Touch2:active {
+  box-shadow: inset -2px -2px 3px rgba(230, 57, 57, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
